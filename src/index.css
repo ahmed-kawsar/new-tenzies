@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.app {
+  background-color: #fff;
+  padding: 0.7em;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 0.5em;
+}
+
+.die {
+  width: 5em;
+  height: 5em;
+  /* background-color: #1c1c1c; */
+  color: #f5f5f5;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.roll-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.6em 2em;
+  background-color: orange;
+  color: #1c1c1c;
+  border: none;
+  margin-top: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lock {
+  font-size: 0.4em;
+}
+
+.title {
+  padding-bottom: 0.3em;
+}
+
+.desc {
+  padding-bottom: 1em;
+}
